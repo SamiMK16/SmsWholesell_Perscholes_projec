@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>SMS Wholesale- contact</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <!-- nav-->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+       <a href="./index.html"><label class="logox" >SMS Wholesale </label></a>
+            <ul>
+            <li><a href="./index.html" target="_self" >Home</a></li>
+            <li><a href="./product.html"  target="_self">Product</a></li>
+            <li><a href="./about.html" target="_self">About</a></li>
+            <li><a href="./contact.html" class="activex" target="_self">Contact</a></li>
+            <li><a href="./login.html" target="_self">Login</a></li>
+
+        </ul>
+    </nav>
+    <!-- form about contact-->
+    <form class="form" name="myForm" onsubmit="return(validate());">
+        <h2>CONTACT US</h2>
+        <p type="Name:"><input id="Name" placeholder="Write your name here.." name="Name" pattern="[A-Za-z]{3}" title="please enter valid name"></input></p>
+        <span role="alert" id="nameError" aria-hidden="true">
+            Please enter First Name
+        </span>
+        <p type="Email:"><input placeholder="Let us know how to contact you back.." required type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email"></input></p>
+        <p type="Message:"><input placeholder="What would you like to tell us.." name="Message"></input></p>
+        <button id="submit"
+            onclick="stringlength(document.form.username,6,15)">Send
+            Message</button>
+
+        <div>
+            <span class="fa fa-phone"></span>001 1023 567
+            <span class="fa fa-envelope-o"></span> contact@company.com
+        </div>
+    </form>
+     <!--script-->
+    <script src="../js/validate.js"></script>
+</body>
+
+</html>
