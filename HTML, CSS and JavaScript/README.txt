@@ -1,3 +1,6 @@
+Project Author
+Samiuel Negash
+
 Project Title
 SMS Wholesale
 
@@ -20,5 +23,8 @@ Executing program
 
 * contact page this page helps to get questions and reviews from customers. user fills up the form's name, email, and message. this also helps to review services and record users. I use validate function on js. This validation function helps to validate the user inputs name, the written email or Gmail, message.
 
-* login page this page to a user to login to our website. 
+* login page this page to a user to login to our website.
 
+
+GitHub Repository
+ https://github.com/SamiMK16/SmsWholesell_Perscholes_projec.git
